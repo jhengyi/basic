@@ -1,0 +1,15 @@
+
+MY_OBJS = test.o keyFileManager.o blowfish.o \
+
+default:all
+all: my_test
+
+my_test: $(MY_OBJS)
+	$(CC) -o $@ $^ 
+
+clean:
+	@rm -vrf *.o my_test $(MY_OBJS)
+
+
+
+

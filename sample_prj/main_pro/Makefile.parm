@@ -1,0 +1,4 @@
+ROOT_DIR=/home/willie/Blowfish_text
+
+
+LDFLAGS:=-L$(ROOT_DIR)/
